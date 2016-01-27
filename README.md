@@ -275,8 +275,9 @@ $ phonegap -v
 1. Download the SDK from [here](http://developer.android.com/sdk/index.html) and extract it to <code>/usr/local/android-sdk</code>
 
     ```bash
-$ sudo tar -zxvf ~/Downloads/android-sdk_r24.0.2-linux.tgz -C /usr/local/
+$ sudo tar -zxvf ~/Downloads/android-sdk_r24.4.1-linux.tgz -C /usr/local/
 ```
+**Note: This command will change based on the SDK version.**
 
 2. Set Paths:
 
