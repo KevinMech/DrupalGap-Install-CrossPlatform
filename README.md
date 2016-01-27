@@ -292,13 +292,25 @@ export PATH=$PATH:/usr/local/android-sdk-linux/platform-tools
 export PATH=$PATH:/usr/local/android-sdk-linux/build-tools
 ```
 
-3. Reload <code>.bashrc</code>
+3. Save and quit:
+
+    ```bash
+$ vi ~/.bashrc
+```
+
+4. Set permissions:
+
+    ```bash
+$ sudo chmod a+x /usr/local/android-sdk-linux/tools/android
+```
+
+5. Reload <code>.bashrc</code>
 
     ```bash
 $ source ~/.bashrc
 ```
     
-4. Verify Correct Installation:
+6. Verify Correct Installation:
 
     ```bash
 $ android
