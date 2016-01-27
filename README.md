@@ -32,18 +32,14 @@
 
 ## Mac
 ### Install XCode
-
 1. Navigate to the [Apple App Store](https://itunes.apple.com/us/app/xcode/id497799835?mt=12) and install XCode.
-
 2. Once installed, run XCode and install all updates.
 
 ### Install Homebrew
-
 1. Open Terminal
-
 2. Type this in Terminal:
-
-```bash
+3. 
+    ```bash
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
@@ -52,20 +48,19 @@ $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/maste
 ### Install node.js
 
 1. Open Terminal
-
 2. Install Brew:
- 
-```bash
+
+    ```bash
 $ brew install node
 ```
 
 3. To ensure they both installed correctly, type:
 
-```bash
+    ```bash
 $ node -v
 ```
 
-```bash
+    ```bash
 $ npm -v
 ```
 
