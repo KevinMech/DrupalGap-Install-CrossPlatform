@@ -47,14 +47,13 @@ $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/maste
 
 ### Install node.js & npm
 
-1. Open Terminal
-2. Install node.js & npm:
+1. Install node.js & npm:
 
     ```bash
 $ brew install node
 ```
 
-3. Check versions to ensure correct installation:
+2. Check versions to ensure correct installation:
 
     ```bash
 $ node -v
@@ -63,7 +62,7 @@ $ node -v
 $ npm -v
 ```
 
-4. Update node.js and npm:
+3. Update node.js and npm:
 
     ```bash
 $ brew update && brew upgrade node
@@ -71,8 +70,7 @@ $ brew update && brew upgrade node
 
 ### Install Cordova
 
-1. Open Terminal
-2. Install Cordova:
+1. Install Cordova:
 
     ```bash
 $ npm install -g cordova
@@ -80,6 +78,121 @@ $ npm install -g cordova
 
 ### Setup PhoneGap Platforms
 
+1. Change directory to desktop:
 
+    ```bash
+$ cd ~/Desktop
+```
+
+2. Create application files:
+
+    ```bash
+$ cordova create ExampleApp com.example "ExampleApp"
+```
+
+3. Change to app directory:
+
+    ```bash
+$ cd ExampleApp
+```
+
+4. Set Paths for the <code>.bash_profile</code>, mine looks like this:
+
+    ```bash
+$ export ANDROID_HOME=/home/kyle/android-sdk
+$ export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+$ export PATH=${PATH}:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:/usr/share/npm
+```
+
+5. Reload <code>.bash_profile</code>:
+
+    ```bash
+$ source ~/.bash_profile
+```
+
+6. Add Android platform:
+
+    ```bash
+$ platform add android
+```
+
+7. Build Android platform:
+
+    ```bash
+$ cordova build
+```
+
+8. Add iOS platform:
+
+    ```bash
+$ cordova platform add ios
+```
+
+9. Build iOS platform:
+
+    ```bash
+$ cordova prepare
+```
+10. Test the simulators:
+
+    ```bash
+$ cordova run
+```
+
+### Install PhoneGap plugins
+
+1. Install all PhoneGap plugins:
+
+    ```bash
+$ cordova plugin add cordova-plugin-console cordova-plugin-device cordova-plugin-dialogs cordova-plugin-file cordova-plugin-inappbrowser cordova-plugin-network-information cordova plugin add cordova-plugin-camera cordova-plugin-geolocation
+```
+
+2. Update your <code>config.xml</code>:
+
+    ```bash
+$ cordova plugin save
+```
+
+### Install DrupalGap SDK overtop PhoneGap:
+
+1. Click the "download" link on your Drupal site under "Configuration -> Web services -> DrupalGap"
+2. Extract the contents of this download into your app's www directory on the desktop (overwrite any files).
+
+    ```
+~/Desktop/ExampleApp/www
+```
+
+3. Open your app's <code>settings.js</code> file, and switch the mode to phonegap:
+
+    ```
+drupalgap.settings.mode = 'phonegap';
+```
+
+4. Then include the <code>cordova.js</code> file in the body of your <code>index.html</code> file:
+
+    ```
+<!-- Load PhoneGap (Cordova) -->
+<script type="text/javascript" src="cordova.js"></script>
+```
+
+### Run the App
+
+1. Change to app's root directory:
+
+    ```bash
+$ cd ~/Desktop/ExampleApp
+```
+
+2. Build and Run the app:
+
+    ```bash
+$ cordova build
+```
+    ```bash
+$ cordova prepare
+```
+    ```bash
+$ cordova run
+```
 
 ## Ubuntu
