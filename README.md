@@ -54,7 +54,7 @@ $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/maste
 1. Open Terminal
 
 2. Install Brew:
-3. 
+ 
 ```bash
 $ brew install node
 ```
