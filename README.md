@@ -6,17 +6,15 @@
 
 **Select your operating system:**
 
-[Link to Header](#header)
+[Windows 7](#Windows 7)
 
-Windows 7
+[Windows 8](#Windows 8)
 
-Windows 8
+[Windows 10](#Windows 10)
 
-Windows 10
+[Mac](#Mac)
 
-Mac
-
-Ubuntu
+[Ubuntu](#Ubuntu)
 
 **Index:**
 
@@ -25,14 +23,12 @@ Ubuntu
 3. Installing Ubuntu
 4. Additional software
 
-[Windows 7](# Windows 7)
+## Windows 7
 
-Windows 8
+## Windows 8
 
-Windows 10
+## Windows 10
 
-Mac
+## Mac
 
-Ubuntu 15.10
-
-## Header
+## Ubuntu 15.10
