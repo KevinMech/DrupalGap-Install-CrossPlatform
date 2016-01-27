@@ -285,10 +285,10 @@ $ vim ~/.bashrc
 ```
 Add:
     ```bash
-$ export PATH=$PATH:/usr/local/android-sdk-linux/
-$ export PATH=$PATH:/usr/local/android-sdk-linux/tools
-$ export PATH=$PATH:/usr/local/android-sdk-linux/platform-tools
-$ export PATH=$PATH:/usr/local/android-sdk-linux/build-tools
+export PATH=$PATH:/usr/local/android-sdk-linux/
+export PATH=$PATH:/usr/local/android-sdk-linux/tools
+export PATH=$PATH:/usr/local/android-sdk-linux/platform-tools
+export PATH=$PATH:/usr/local/android-sdk-linux/build-tools
 ```
 
 3. Reload <code>.bashrc</code>
