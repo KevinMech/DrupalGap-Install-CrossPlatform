@@ -12,7 +12,7 @@
 
 [Windows 10](#windows_10)
 
-[Mac OSX](#mac_OSX)
+[Mac OSX](#mac_osx)
 
 [Ubuntu](#ubuntu)
 
