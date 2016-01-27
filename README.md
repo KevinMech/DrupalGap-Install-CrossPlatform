@@ -347,19 +347,25 @@ $ ./genymotion
 $ phonegap create testapp
 ```
 
-2. Add Android Platform:
+2. Change Directory:
+
+    ```bash
+$ cd /home/kyle/testapp
+```
+
+3. Add Android Platform:
 
     ```bash
 $ phonegap platform add android
 ```
 
-3. Verify the platform was added:
+4. Verify the platform was added:
 
     ```bash
 $ phonegap platform -ls
 ```
 
-4. Run the application:
+5. Run the application:
 
     ```bash
 $ phonegap run android
