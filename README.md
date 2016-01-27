@@ -8,9 +8,9 @@
 
 [Windows 7](#windows_7)
 
-[Windows 8](#windows8)
+[Windows 8](#windows_8)
 
-[Windows 10](#windows10)
+[Windows 10](#windows_10)
 
 [Mac](#mac)
 
@@ -25,10 +25,10 @@
 
 ## Windows_7
 
-## Windows 8
+## Windows_8
 
-## Windows 10
+## Windows_10
 
 ## Mac
 
-## Ubuntu15.10
+## Ubuntu
