@@ -210,3 +210,144 @@ $ rm -rf css/ img/ js/
 ```
 
 ## Ubuntu
+
+### Install node.js & npm
+
+1. Install node.js:
+
+    ```bash
+$ sudo apt-get update
+```
+    ```bash
+$ sudo apt-get install nodejs
+```
+
+2. Install npm:
+
+    ```bash
+$ sudo apt-get install npm
+```
+
+3. Update node.js name for PhoneGap:
+
+    ```bash
+$ sudo ln -s /usr/bin/nodejs /usr/bin/node
+```
+
+### Install Git
+
+1. Install Git:
+
+    ```bash
+$ sudo apt-get install git
+```
+
+### Install Ant
+
+1. Install Ant:
+
+    ```bash
+$ sudo apt-get install ant
+```
+
+### Install PhoneGap
+
+1. Install PhoneGap:
+
+    ```bash
+$ sudo npm install -g phonegap
+```
+
+2. Install dependencies:
+
+    ```bash
+$ sudo apt-get install lib32z1 lib32ncurses5 lib32bz2-1.0 lib32stdc++6
+```
+
+3. Verify Correct Installation:
+
+    ```bash
+$ phonegap -v
+```
+
+### Add Android Platform
+
+1. Download the SDK from [here](http://developer.android.com/sdk/index.html) and extract it to <code>/usr/local/android-sdk</code>
+
+    ```bash
+$ sudo tar -zxvf ~/Downloads/android-sdk_r24.0.2-linux.tgz -C /usr/local/
+```
+
+2. Set Paths:
+
+    ```bash
+$ vim ~/.bashrc
+```
+Add:
+    ```bash
+$ export PATH=$PATH:/usr/local/android-sdk-linux/
+$ export PATH=$PATH:/usr/local/android-sdk-linux/tools
+$ export PATH=$PATH:/usr/local/android-sdk-linux/platform-tools
+$ export PATH=$PATH:/usr/local/android-sdk-linux/build-tools
+```
+
+3. Reload <code>.bashrc</code>
+
+    ```bash
+$ source ~/.bashrc
+```
+    
+4. Verify Correct Installation:
+
+    ```bash
+$ android
+```
+
+### Install A Faster Emulator (Optional)
+
+1. Install VirtualBox
+
+    ```bash
+$ sudo apt-get install virtualbox
+```
+
+2. Download the emulator from [here](https://www.genymotion.com/#!/download)
+3. Set Permissions:
+
+    ```bash
+$ chmod u+x genymotion-2.1.0_x64.bin
+$ ./genymotion-2.1.0_x64.bin
+```
+
+4. Run the emulator:
+
+    ```bash
+$ cd /home/dasunhegoda/Downloads/genymotion/
+$ ./genymotion
+```
+
+### Create An App
+
+1. Create application files:
+
+    ```bash
+$ phonegap create testapp
+```
+
+2. Add Android Platform:
+
+    ```bash
+$ phonegap platform add android
+```
+
+3. Verify the platform was added:
+
+    ```bash
+$ phonegap platform -ls
+```
+
+4. Run the application:
+
+    ```bash
+$ phonegap run android
+```
