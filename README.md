@@ -2,7 +2,7 @@
 
 ![alt text](https://www.drupal.org/files/project-images/drupalgap-wide.jpg "DrupalGap")
 
-## Setting Up DrupalGap across multiple platforms
+## Setting Up DrupalGap Across Multiple Platforms
 
 **Select your operating system:**
 
