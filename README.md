@@ -6,15 +6,15 @@
 
 **Select your operating system:**
 
-[Windows 7](#Windows7)
+[Windows 7](#windows 7)
 
-[Windows 8](#Windows8)
+[Windows 8](#windows8)
 
-[Windows 10](#Windows10)
+[Windows 10](#windows10)
 
-[Mac](#Mac)
+[Mac](#mac)
 
-[Ubuntu](#Ubuntu)
+[Ubuntu](#ubuntu)
 
 **Index:**
 
