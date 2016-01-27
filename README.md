@@ -23,7 +23,7 @@
 3. Installing Ubuntu
 4. Additional software
 
-## Windows_7
+## Windows 7
 
 ## Windows 8
 
