@@ -6,11 +6,11 @@
 
 **Select your operating system:**
 
-[Windows 7](#windows_7)
+[Windows 7](#windows 7)
 
-[Windows 8](#windows_8)
+[Windows 8](#windows 8)
 
-[Windows 10](#windows_10)
+[Windows 10](#windows 10)
 
 [Mac](#mac)
 
