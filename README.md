@@ -6,12 +6,17 @@
 
 **Select your operating system:**
 
+[Windows 7](# Windows 7)
+
 # Windows 7
 
-2. [Windows 8](#Windows8)
-3. [Windows 10](#Windows10)
-4. [Mac](#Mac)
-5. [Ubuntu](#Ubuntu)
+# Windows8
+
+# Windows10
+
+# Mac
+
+# Ubuntu
 
 **Index:**
 
@@ -20,11 +25,7 @@
 3. Installing Ubuntu
 4. Additional software
 
-[Windows 7](#Windows7)
-
 # Windows 7
-
-Windows 7
 
 # Windows 8
 
