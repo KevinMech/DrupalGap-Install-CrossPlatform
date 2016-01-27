@@ -45,26 +45,41 @@ $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/maste
 
 3. Follow the prompts to complete the installation
 
-### Install node.js
+### Install node.js & npm
 
 1. Open Terminal
-2. Install Brew:
+2. Install node.js & npm:
 
     ```bash
 $ brew install node
 ```
 
-3. To ensure they both installed correctly, type:
+3. Check versions to ensure correct installation:
 
     ```bash
 $ node -v
 ```
-
     ```bash
 $ npm -v
 ```
 
-*You should see the version numbers*
+4. Update node.js and npm:
+
+    ```bash
+$ brew update && brew upgrade node
+```
+
+### Install Cordova
+
+1. Open Terminal
+2. Install Cordova:
+
+    ```bash
+$ npm install -g cordova
+```
+
+### Setup PhoneGap Platforms
+
 
 
 ## Ubuntu
