@@ -6,7 +6,7 @@
 
 **Select your operating system:**
 
-[Windows 7](# Windows 7)
+<a name="Windows 7">Windows 7</a>
 
 Windows 7
 
@@ -25,7 +25,7 @@ Ubuntu
 3. Installing Ubuntu
 4. Additional software
 
-Windows 7
+[Windows 7](# Windows 7)
 
 Windows 8
 
