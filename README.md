@@ -2,7 +2,7 @@
 
 ![alt text](https://www.drupal.org/files/project-images/drupalgap-wide.jpg "DrupalGap")
 
-## Setting Up DrupalGap across multiple platforms**
+## Setting Up DrupalGap across multiple platforms
 
 **Select your operating system:**
 
@@ -18,10 +18,11 @@
 
 **Index:**
 
-1. Backing up Files and Settings
-2. Mounting Ubuntu on a USB drive
-3. Installing Ubuntu
-4. Additional software
+1. Install node.js
+2. Install Cordova
+3. Setup PhoneGap Platforms
+4. Install PhoneGap Plugins
+5. Install DrupalGap SDK over PhoneGap
 
 ## Windows_7
 
@@ -30,5 +31,19 @@
 ## Windows_10
 
 ## Mac
+### Install XCode
+1. Navigate to the [Apple App Store](https://itunes.apple.com/us/app/xcode/id497799835?mt=12) and install XCode.
+2. Once installed, run XCode and install all updates.
+
+### Install Homebrew
+1. Open Terminal
+2. Type the following:
+```bash
+$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+3. Follow the prompts in Terminal to complete the installation.
+
+### Install node.js
+
 
 ## Ubuntu
