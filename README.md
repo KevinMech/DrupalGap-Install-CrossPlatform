@@ -195,4 +195,18 @@ $ cordova prepare
 $ cordova run
 ```
 
+### Remove Extra Files
+
+1. Change to app's root directory:
+
+    ```bash
+$ cd ~/Desktop/ExampleApp/www
+```
+
+2. Delete some extra files:
+
+    ```bash
+$ rm -rf css/ img/ js/
+```
+
 ## Ubuntu
