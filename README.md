@@ -12,7 +12,7 @@
 
 [Windows 10](#windows_10)
 
-[Mac](#mac)
+[Mac OSX](#mac_OSX)
 
 [Ubuntu](#ubuntu)
 
@@ -30,7 +30,7 @@
 
 ## Windows_10
 
-## Mac
+## Mac_OSX
 ### Install XCode
 1. Navigate to the [Apple App Store](https://itunes.apple.com/us/app/xcode/id497799835?mt=12) and install XCode.
 2. Once installed, run XCode and install all updates.
