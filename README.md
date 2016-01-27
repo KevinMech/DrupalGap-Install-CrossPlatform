@@ -38,7 +38,7 @@
 ### Install Homebrew
 1. Open Terminal
 2. Type this in Terminal:
-3. 
+
     ```bash
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
