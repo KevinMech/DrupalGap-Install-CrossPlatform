@@ -2,21 +2,21 @@
 
 ![alt text](https://www.drupal.org/files/project-images/drupalgap-wide.jpg "DrupalGap")
 
-#Setting Up DrupalGap across multiple platforms
+**Setting Up DrupalGap across multiple platforms**
 
 **Select your operating system:**
 
 [Windows 7](# Windows 7)
 
-# Windows 7
+Windows 7
 
-# Windows8
+Windows 8
 
-# Windows10
+Windows 10
 
-# Mac
+Mac
 
-# Ubuntu
+Ubuntu
 
 **Index:**
 
@@ -25,12 +25,12 @@
 3. Installing Ubuntu
 4. Additional software
 
-# Windows 7
+Windows 7
 
-# Windows 8
+Windows 8
 
-# Windows 10
+Windows 10
 
-# Mac
+Mac
 
-# Ubuntu 15.10
+Ubuntu 15.10
