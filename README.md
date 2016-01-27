@@ -6,7 +6,7 @@
 
 **Select your operating system:**
 
-<a name="Windows 7">Windows 7</a>
+[Link to Header](#header)
 
 Windows 7
 
@@ -34,3 +34,5 @@ Windows 10
 Mac
 
 Ubuntu 15.10
+
+## Header
