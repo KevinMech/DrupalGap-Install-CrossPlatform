@@ -6,7 +6,7 @@
 
 **Select your operating system:**
 
-Windows 7
+# Windows 7
 
 2. [Windows 8](#Windows8)
 3. [Windows 10](#Windows10)
@@ -21,6 +21,8 @@ Windows 7
 4. Additional software
 
 [Windows 7](#Windows7)
+
+# Windows 7
 
 Windows 7
 
