@@ -113,7 +113,7 @@ $ source ~/.bash_profile
 6. Add Android platform:
 
     ```bash
-$ platform add android
+$ cordova platform add android
 ```
 
 7. Build Android platform:
