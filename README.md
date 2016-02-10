@@ -24,6 +24,8 @@
 4. Install PhoneGap Plugins
 5. Install DrupalGap SDK over PhoneGap
 
+**Note: You will need a Drupal 7 site preinstalled**
+
 ## Windows_7
 
 ## Windows_8
