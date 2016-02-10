@@ -155,7 +155,7 @@ $ cordova plugin add cordova-plugin-console cordova-plugin-device cordova-plugin
 $ cordova plugin save
 ```
 
-### Download the DruapGap Module and dependencies into Drupal 7:
+### Download the DrupalGap Module and dependencies into Drupal 7:
 
 1. Download DrupalGap dependencies:
 
