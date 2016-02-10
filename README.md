@@ -2,7 +2,7 @@
 
 ![alt text](https://www.drupal.org/files/project-images/drupalgap-wide.jpg "DrupalGap")
 
-## Setting Up DrupalGap Across Multiple Platforms
+## Setting Up DrupalGap on Drupal 7 Across Multiple Platforms
 
 **Select your operating system:**
 
@@ -152,6 +152,46 @@ $ cordova plugin add cordova-plugin-console cordova-plugin-device cordova-plugin
     ```bash
 $ cordova plugin save
 ```
+
+### Download the DruapGap Module and dependencies into Drupal 7:
+
+1. Download DrupalGap dependencies:
+
+    ```
+$ drush dl services libraries views_datasource
+```
+
+2. Enable DrupalGap dependencies:
+
+    ```
+$ drush en -y services libraries veiws_datasource
+```
+
+3. Download DrupalGap Module:
+
+    ```
+$ drush dl drupalgap
+```
+
+4. Enable DrupalGap Module:
+
+    ```
+$ drush en -y drupalgap
+```
+
+5. Flush Drupal cache:
+
+    ```
+$ drush cc all
+```
+
+6. Flush Drupal cache again because why not:
+
+    ```
+$ drush cc all
+```
+
+7. Test your isntallation by going to <code>admin/config/services/drupalgap</code> and clicking <code>Test Connection</code>. It should say <code>The system connect test was successful, DrupalGap is configured properly!</code>
 
 ### Install DrupalGap SDK overtop PhoneGap:
 
