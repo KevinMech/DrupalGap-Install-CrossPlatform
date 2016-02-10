@@ -191,12 +191,12 @@ $ drush cc all
 $ drush cc all
 ```
 
-7. Test your isntallation by going to <code>admin/config/services/drupalgap</code> and clicking <code>Test Connection</code>. It should say <code>The system connect test was successful, DrupalGap is configured properly!</code>
+7. Test your isntallation by going to <code>admin -> config -> services -> drupalgap</code> and clicking <code>Test Connection</code>. It should say <code>The system connect test was successful, DrupalGap is configured properly!</code>
 
 ### Install DrupalGap SDK overtop PhoneGap:
 
 1. Click the "download" link on your Drupal site under "Configuration -> Web services -> DrupalGap"
-2. Extract the contents of this download into your app's www directory on the desktop (overwrite any files).
+2. Extract the contents of this download into your app's www directory on the desktop (overwrite any files):
 
     ```
 ~/Desktop/ExampleApp/www
