@@ -146,7 +146,7 @@ $ cordova run
 1. Install all PhoneGap plugins:
 
     ```bash
-$ cordova plugin add cordova-plugin-console cordova-plugin-device cordova-plugin-dialogs cordova-plugin-file cordova-plugin-inappbrowser cordova-plugin-network-information cordova plugin add cordova-plugin-camera cordova-plugin-geolocation
+$ cordova plugin add cordova-plugin-console cordova-plugin-device cordova-plugin-dialogs cordova-plugin-file cordova-plugin-inappbrowser cordova-plugin-network-information cordova-plugin-camera cordova-plugin-geolocation
 ```
 
 2. Update your <code>config.xml</code>:
